@@ -1,0 +1,20 @@
+{
+  "name": "firebase-fullstack",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {},
+  "devDependencies": {},
+  "workspaces": [
+    "api",
+    "ui"
+  ],
+  "scripts": {
+    "build": "cd ui && npm run build",
+    "deploy": "firebase deploy --only hosting,functions",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
